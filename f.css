@@ -1,0 +1,123 @@
+
+        body{
+            background-color: rgb(240, 133, 200);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image:radial-gradient( rgb(170, 29, 114), rgb(84, 95, 253));
+        
+        }
+        .container{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+        
+        }
+        .gamebox{
+            height: 500px;
+            width: 500px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+            border: 1px-solid red;
+           
+           
+        }
+        .card{
+        height: 100px;
+        width: 100px;
+        background-color: rgb(91, 138, 114);
+        border-radius: 50%;
+        border: 3px solid rgb (43, 211, 226);
+        /* border-width: 3px; */
+        /* border-style: solid; */
+        /* border-color: rgb(43, 211, 226); */
+        box-shadow: 2px 2px;
+        margin: 10px;
+        cursor: pointer;
+    
+    
+        }
+        .button{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            text-align: center;
+            width: 150px;
+            background-color: rgb(114, 193, 136);
+            padding: 5px;
+            text-transform: uppercase;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            text-align: center;
+        }
+        .title{
+            font-size: 70px;
+            font-weight: bolder;
+            color: rgb(255, 255, 255);
+            margin: 3px;
+            text-shadow: solid rgb(190, 30, 12) 2px;
+            text-align: center;
+        }
+        .card img{
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 300px ) and (max-width: 850px){
+           
+            .container{
+               
+               padding: 50px 100px;
+            
+            }
+            .gamebox{
+                height: 500px;
+                width: 390px;
+                display: flex;
+                flex-wrap: wrap;
+                padding: 10px;
+                border: 1px-solid red;
+               
+               
+            }
+            .card{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(91, 138, 114);
+            border-radius: 50%;
+            border: 3px solid rgb (43, 211, 226);
+            /* border-width: 3px; */
+            /* border-style: solid; */
+            /* border-color: rgb(43, 211, 226); */
+            box-shadow: 2px 2px;
+            margin: 10px;
+            cursor: pointer;
+        
+        
+            }
+            .button{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                border-radius: 15px;
+                text-align: center;
+                width: 150px;
+                background-color: rgb(114, 193, 136);
+                padding: 5px;
+                text-transform: uppercase;
+                color: rgb(255, 255, 255);
+                cursor: pointer;
+                text-align: center;
+            }
+            .title{
+                font-size: 48px;
+                font-weight: bolder;
+                color: rgb(255, 255, 255);
+                margin: 3px;
+                text-shadow: solid rgb(190, 30, 12) 2px;
+                text-align: center;
+            }
+            .card img{
+                width: 100%;
+            }
+        }
